@@ -1,0 +1,146 @@
+.main {
+    padding: 60px 16px 0 16px;
+    position: relative;
+}
+.status-corner{
+    width: 66px;
+    height: 24px;
+    margin: 34px 0 24px 0;
+}
+.shopping-cart, .search {
+    width: 22px;
+    height: 22px;
+
+}
+.shopping-cart{
+    background: url('../images/shoppingCart.png') no-repeat;
+    background-size: contain;
+}
+.search  {
+    background: url('../images/search.png') no-repeat;
+    background-size: contain;
+}
+.title{
+    margin: 26px 0;
+    font-size: 24px;
+}
+.main__image-div{
+    position: relative;
+}
+
+.main__image {
+    width: 100%;
+    position: relative;
+}
+
+.main__text-on-image{
+    padding: 40px 30px;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.item-image {
+    width: 205px;
+}
+.container-item{
+    margin-bottom: 6px;
+}
+
+.subscribe {
+    padding: 32px 16px;
+    background-color: #000;
+    color: white;
+}
+.subscribe__email{
+    width: 100%;
+    margin: 10px auto;
+    font-size: 16px;
+}
+.contactInfo{
+    background-color: #f1f1f1;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.questions{
+    padding: 0 20px;
+    width: 280px;
+    justify-content: center;
+}
+.questions>input, .questions button {
+    width: 100%;
+    margin: 4px auto;
+}
+
+.about {
+    text-align: center;
+    margin-left: 16%;
+}
+.about>a {
+    display: block;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.store{
+    margin-left: 16%;
+}
+.store>p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.socialNetworks{
+    margin-top: 22px;
+}
+
+
+
+
+.fa-map-marker:before {
+    content: "\f041";
+}
+.fa-phone:before {
+    content: "\f095";
+}
+.fa-envelope:before {
+    content: "\f0e0";
+}
+.fa-cc-amex:before {
+    content: "\f1f3";
+}
+.fa-credit-card:before {
+    content: "\f09d";
+}
+
+.fa-facebook-official:before {
+    content: "\f230";
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+.fa-snapchat:before {
+    content: "\f2ab";
+}
+.fa-pinterest-p:before {
+    content: "\f231";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+
+.footer {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+.footer p {
+    text-align: center;
+}
